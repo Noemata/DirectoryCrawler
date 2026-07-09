@@ -1,3 +1,7 @@
+# No Hands (programming)
+
+The entire solution was created using an agentic approach.  Once the "Factory Floor" was in place by creating these files: .mcp.com, project.yml, place holder files in the Sources and Tests folder, and the addition of STAGE 1->5 prompts at the root of the project, the rest of the development process was handled by the AI agent after executing Xcodegen to create the starting ("Factory Floor") solution elements. This "No Hands" section was added by a human at the very end of the process.
+
 # DirectoryCrawler
 
 DirectoryCrawler is a native macOS application that allows users to navigate and explore their file system. Built with SwiftUI, it features a classic NavigationSplitView with standard macOS volumes on the left sidebar and a dynamically loaded, recursive file hierarchy detail view on the right pane.
