@@ -1,0 +1,24 @@
+name: DirectoryCrawler
+options:
+  bundleIdPrefix: com.pragmatacore
+targets:
+  DirectoryCrawler:
+    type: application
+    platform: macOS
+    deploymentTarget: "26.0"
+    sources: [Sources]
+    settings:
+      base:
+        ENABLE_USER_SCRIPT_SANDBOXING: NO
+        CODE_SIGN_ENTITLEMENTS: "DirectoryCrawler.entitlements"
+        GENERATE_INFOPLIST_FILE: YES
+  DirectoryCrawlerTests:
+    type: bundle.unit-test
+    platform: macOS
+    deploymentTarget: "26.0"
+    sources: [Tests]
+    dependencies:
+      - target: DirectoryCrawler
+    settings:
+      base:
+        GENERATE_INFOPLIST_FILE: YES
