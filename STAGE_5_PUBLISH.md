@@ -11,7 +11,7 @@ Finalize the project by generating documentation, establishing version control w
     * A section detailing the "Agentic Factory" development process, explicitly documenting how the app was built in 5 distinct stages using the Copilot CLI connected to the Xcode 26.6 MCP bridge.
 3. **Initialize Git:** Run `git init` and set the default branch to `main`.
 4. **Commit:** Stage all files (`git add .`) and create an initial commit with a descriptive message.
-5. **Publish:** Add the remote origin for the user's repository using `git remote add origin https://github.com/Noemata/DirectoryCrawler.git`. Attempt to push the code using `git push -u origin main`. *(If the CLI has access to the `gh` command line tool, use `gh repo create Noemata/DirectoryCrawler --public --source=. --push` instead to ensure the remote repository is created).*
+5. **Publish:** Add the remote origin for the user's repository using `git remote add origin https://github.com/xxx/DirectoryCrawler.git`. Attempt to push the code using `git push -u origin main`. *(If the CLI has access to the `gh` command line tool, use `gh repo create xxx/DirectoryCrawler --public --source=. --push` instead to ensure the remote repository is created).*
 
 ## Validation & Completion
 If the git push is successful, output a final summary confirming the code is live at the GitHub URL.
